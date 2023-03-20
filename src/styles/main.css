@@ -4909,6 +4909,34 @@ img {
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
 
+.project-link2 {
+  display: inline-block;
+  margin: 2.5px 0px;
+  padding: 2.5px;
+  color: #557091;
+  background-color: transparent;
+  border: 0.5px solid #557091;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+.project-link2:hover {
+  background-color: #557091;
+  border-color: #557091;
+  color: #fff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+}
+.project-link2:active {
+  background-color: #557091;
+  border-color: #557091;
+  color: #fff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+}
+
+
 .footer {
   background: #557091;
   padding: 10px 0;
