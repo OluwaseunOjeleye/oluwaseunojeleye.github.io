@@ -81,7 +81,14 @@
     </ul>
     <p>This project involves the development of a desktop application designed for camera calibration using rectangular markers for augmented reality (AR) applications.  
         This software implementation leverages advanced image processing and computer vision algorithms to accurately compute both the intrinsic camera parameters (projection matrix) and extrinsic parameters (rotation and translation) required for precise rendering of virtual objects within a real-world environment.<br>
-    <a class="project-link" href="https://github.com/OluwaseunOjeleye/AR-App-Camera-Calibration-using-a-Rectangular-Marker">Code</a></p>
+        The implementation is based on a straightforward approach, which involves the following steps:<br>
+        • Acquisition of video frames from the camera. <br>        
+        • Detection of a marker in the image using advanced computer vision techniques.<br>
+        • Computation of the homography matrix using the points of the detected square and a template image.<br>
+        • Decomposition of the homography matrix to obtain the extrinsic parameters, including the rotation matrix and translation vector.<br>
+        • Rendering of virtual objects in the world coordinate system using the computed parameters.<br>
+        <a class="project-link" href="https://www.youtube.com/watch?v=oMAx4KyZJhU">Demo Video</a>
+        <a class="project-link" href="https://github.com/OluwaseunOjeleye/AR-App-Camera-Calibration-using-a-Rectangular-Marker">Code</a></p>
   </div>
 </div>
 
